@@ -1,0 +1,29 @@
+body{
+    background-color:wheat;
+}
+h1{
+    margin:40px;
+    color:white;
+}
+#main-container{
+    display: flex;
+    justify-content: space-around;
+}
+#form-div, #list-div{
+    width:30%;
+    height:50vh;
+}
+input, #list-div{
+    font-size:1.5em;
+    line-height: 2;
+}
+
+#form-div{
+    background-color: mistyrose;
+}
+
+#list-div{
+    background-color:linen;
+    padding:5px;
+    text-align: center;
+}
